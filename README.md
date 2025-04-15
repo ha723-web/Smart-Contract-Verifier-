@@ -49,3 +49,14 @@ SmartContractVerifier/
 
 ## 📜 License
 MIT
+
+## 📂 Commands to Run
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+touch .env
+OPENAI_API_KEY=your_openai_key_here
+streamlit run app.py
+
+```
