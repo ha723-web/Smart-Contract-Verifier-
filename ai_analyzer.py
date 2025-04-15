@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY") or "sk-your-api-key-here"
+openai.api_key = os.getenv("OPENAI_API_KEY") 
 
 
 def analyze_with_llm(code: str) -> str:
